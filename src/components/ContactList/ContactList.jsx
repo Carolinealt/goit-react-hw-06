@@ -4,7 +4,7 @@ import css from "./ContactList.module.css";
 import { useSelector } from "react-redux";
 const ContactList = () => {
   const contactsList = useSelector((state) => {
-    return state.contacts;
+    return state.contacts.items;
   });
   const filterValue = useSelector((state) => {
     return state.filter;

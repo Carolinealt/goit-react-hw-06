@@ -8,8 +8,13 @@
 .addBtn {
     align-self: flex-end;
     border: solid 1px rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 .field {
     width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
 }
